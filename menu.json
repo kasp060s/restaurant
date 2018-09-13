@@ -1,0 +1,128 @@
+[
+  {
+    "Titel": "Tomat salat",
+    "Billede": "tomatsalat.jpg",
+    "Kort beskrivelse": "Tomat salat",
+    "Pris": "70 kr",
+    "Kategori": "Forret"
+  },
+  {
+    "Titel": "Guacamole",
+    "Billede": "guacamole.jpg",
+    "Kort beskrivelse": "Guacamole",
+    "Pris": "65 kr",
+    "Kategori": "Forret"
+  },
+  {
+    "Titel": "Jalapenos-poppers",
+    "Billede": "Jalepenos-poppers.jpg",
+    "Kort beskrivelse": "Dybstegte jalapenos",
+    "Pris": "80 kr",
+    "Kategori": "Forret"
+  },
+  {
+    "Titel": "Mango salat",
+    "Billede": "mango-salat.jpg",
+    "Kort beskrivelse": "Mango salat",
+    "Pris": "75 kr",
+    "Kategori": "Forret"
+  },
+  {
+    "Titel": "Empanadas",
+    "Billede": "masa-empanadas.jpg",
+    "Kort beskrivelse": "Empanadas",
+    "Pris": "80 kr",
+    "Kategori": "Forret"
+  },
+  {
+    "Titel": "Corn-croquettes",
+    "Billede": "corn-croquettes.jpg",
+    "Kort beskrivelse": "Majs kroketter",
+    "Pris": "65 kr",
+    "Kategori": "Forret"
+  },
+  {
+    "Titel": "Chicken-bowl",
+    "Billede": "chicken-bowl-burrito.jpg",
+    "Kort beskrivelse": "Mexi bowl med kylling",
+    "Pris": "140 kr",
+    "Kategori": "Hovedret"
+  },
+  {
+    "Titel": "Fish-tacos",
+    "Billede": "fish-tacos.jpg",
+    "Kort beskrivelse": "Fiske tacos",
+    "Pris": "180 kr",
+    "Kategori": "Hovedret"
+  },
+  {
+    "Titel": "Huevos rancheros",
+    "Billede": "huevos-rancheros.jpg",
+    "Kort beskrivelse": "Tortillas med spejlæg",
+    "Pris": "160 kr",
+    "Kategori": "Hovedret"
+  },
+  {
+    "Titel": "Tacos kylling",
+    "Billede": "tacos.jpg",
+    "Kort beskrivelse": "Tacos med kylling",
+    "Pris": "150 kr",
+    "Kategori": "Hovedret"
+  },
+  {
+    "Titel": "Tacos Oks",
+    "Billede": "random-tacos2.jpg",
+    "Kort beskrivelse": "Tacos med oksekød",
+    "Pris": "150 kr",
+    "Kategori": "Hovedret"
+  },
+  {
+    "Titel": "Tacos Gluten fri",
+    "Billede": "taco-gluten-free.jpg",
+    "Kort beskrivelse": "Gluten fri Taco",
+    "Pris": "160 kr",
+    "Kategori": "Hovedret"
+  },
+  {
+    "Titel": "Mexican Corn",
+    "Billede": "mexican-corn-3.jpg",
+    "Kort beskrivelse": "Mexicanske Majs",
+    "Pris": "140 kr",
+    "Kategori": "Hovedret"
+  },
+  {
+    "Titel": "Churros",
+    "Billede": "churros.jpg",
+    "Kort beskrivelse": "Spansk donut",
+    "Pris": "60 kr",
+    "Kategori": "Dessert"
+  },
+  {
+    "Titel": "Churros-rellenos",
+    "Billede": "churros-rellenos.jpg",
+    "Kort beskrivelse": "Spansk donut med chokolade",
+    "Pris": "65 kr",
+    "Kategori": "Dessert"
+  },
+  {
+    "Titel": "Cocada",
+    "Billede": "cocada.jpg",
+    "Kort beskrivelse": "Kokos dessert",
+    "Pris": "60 kr",
+    "Kategori": "Dessert"
+  },
+  {
+    "Titel": "Flan",
+    "Billede": "flan.jpg",
+    "Kort beskrivelse": "Mexicansk budding",
+    "Pris": "70 kr",
+    "Kategori": "Dessert"
+  },
+  {
+    "Titel": "Alegria",
+    "Billede": "las-alegrias.jpg",
+    "Kort beskrivelse": "Mexicansk sukkerbar",
+    "Pris": "75 kr",
+    "Kategori": "Dessert"
+  }
+]
