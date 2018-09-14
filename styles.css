@@ -1,0 +1,111 @@
+    body {
+        background-color: white;
+
+    }
+
+    @font-family {
+        font-family: 'Chivo', sans-serif;
+
+    }
+
+
+
+    @media screen and (min-width:480px) {
+
+        .data-container {
+            padding-left: 10%;
+            padding-right: 10%;
+            grid-gap: 15px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+    }
+
+    #modal {
+        background-color: aliceblue;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        text-align: left;
+
+        font-family: 'Chivo', sans-serif;
+        letter-spacing: 1, 5px;
+        line-height: 1.6;
+
+
+        display: none;
+        top: 0;
+        left: 0;
+
+    }
+
+    #modal-content {
+        width: 40vw;
+        height: 50vw;
+        margin: auto;
+        background-color: white;
+        opacity: none;
+
+
+        padding: 20px;
+
+    }
+#modal.vis {
+
+    display: block;
+    opacity: 1;
+    pointer-events: all;
+
+
+
+
+
+
+}
+
+#modal img {
+    max-height: 100%;
+    padding-left: 40px;
+
+
+}
+nav {
+    text-align: center;
+    padding: 10px;
+
+
+
+}
+
+nav .menu-item {
+    font-size: 20px;
+    font-family: 'Chivo', sans-serif;
+
+
+    text-align: right;
+
+
+}
+
+}
+
+
+    .logo {
+        text-align: left;
+
+    }
+
+    .logo img {
+        max-width: 150px;
+
+    }
+
+
+
+    img {}
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px 200px 200px;
+    }

@@ -6,135 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> El Restaurante </title>
+    <link rel="stylesheet" href="styles.css">
+
     <style>
-        body {
-        background-color: white;
-
-}
-
-        @font-family {
-            font-family: 'Chivo', sans-serif;
-
-}
-
-        .data-container {
-        margin: o auto;
-        display: grid;
-}
-
-        @media screen and (min-width:580px){
-        .data-container {
-
-
-}
-
-}
-        .logo{
-
-
-
-}
-
-        .logo img{
-        max-width: 150px;
-
-}
-
-
-
-
-
-
 
     </style>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="logo"> <img src="logo-2-01.png" alt=""></div></div>
-
-        <nav><h1>El Restaurante</h1>
-           <button class="menu-item" data-menu="alle">Forside</button>
-            <button class="manu-item" data-menu="Forret">Forretter</button>
-            <button class="menu-item" data-menu="Hovedret">Hovedretter</button>
-            <button class="menu-item" data-menu="Dessert">Desserter</button></nav>
-
-
-
-
-
+    <div class="container">
+        <div class="item item-a"><div class="logo"> <img src="logo-2-01.png" alt=""></div></div>
+        <div class="item item-b">
+            <nav>
+                <button class="menu-item" data-menu="alle">Alle Retter</button>
+                <button class="menu-item" data-menu="Forret">Forretter</button>
+                <button class="menu-item" data-menu="Hovedret">Hovedretter</button>
+                <button class="menu-item" data-menu="Dessert">Desserter</button></nav>
+        </div>
+        <div class="item item-c"></div>
+        <div class="item item-d"></div>
+        <header>
 
 
 
 
 
-    </header>
 
-    <main class="container">
-        <section class="data-container"></section>
-    </main>
-    <template class="data-template">
-        <article class="mad">
-            <h2></h2>
-            <img src="" alt="">
+        </header>
+        <section id="modal">
+            <button>Tilbage</button>
+            <div id="modal-content">
+                <h2 class="modal-navn"></h2>
+                <span class="modal-id"></span>
+                <span class="modal-kategori"></span>
+                <span class="modal-pris"></span>
+                <span class="modal-kortbeskrivelse"></span>
+                <img class="modal-billede" src="">
+            </div>
 
-        </article>
-    </template>
+        </section>
 
+        <main class="container">
+            <section class="data-container">
 
+            </section>
 
+        </main>
+        <template class="data-template">
+            <article class="mad">
+                <h2></h2>
+                <img src="" alt="">
 
-    <script>
-        let mad;
-
-        let dest = document.querySelector(".data-container"),
-        retter,
-        madFilter = "alle";
-        document.addEventListener("DOMContentLoaded",
-        hentJson)
-        async function hentJson(){
-            let myJson = await fetch("menu.json");
-            mad = await myJson.json();
-            visMad();
-}
-
-        document.querySelectorAll("menu-item").forEach(kanp => {
-            knap.addEventListener("click", filtrering)
-});
-
-        function filtrering(){
-            dest.textContent ="";
-            madFilter = document.querySelector(".menu-item").getAttribute("data-menu");
-
-            visMad()
+            </article>
+        </template>
 
 
-}
-        function visMad(){
 
+        <script src="script.js"></script>
 
-            let temp = document.querySelector("data-template");
-            document.querySelector("header h1").textContent = madFilter;
-            mad.forEach( ret => {
-                if(ret.kategori == madFilter || madFilter == "alle"){
-
-                let klon = temp.cloneNode(true).content;
-                    klon.querySelector("h2").textContent=
-                    ret.navn;
-                    klon.querySelector("img").src = "imgs/forretter/hovedretter/dessert" + ret.billede;
-                    klon.querySelector(".data-titel").textContent = ret.titel;
-                    klon.querySelector(".data-pris").textContent = ret.pris;
-                    klon.querySelector(".data-kortbeskrivelse").textContent = ret.kortbeskrivelse;
-                    klon.querySelector("data-kategori").textContent = ret.kategori;
-
-                    dest.appendChild(Klon);
-
-}
-})
-
-}
-    </script>
 </body>
 
 </html>
